@@ -1,0 +1,84 @@
+* {
+	position: relative;
+}
+
+body {
+	background-image: url(../images/background.png);
+}
+
+/*.nav {
+	border-bottom: 1px solid #fff;
+	height: 40px;
+	background: transparent;
+	width: 100%;
+}*/
+
+.nav li {
+	display: inline;
+	float: right;
+	margin: 15px;
+}
+
+.cards {
+	float: right;
+	margin-right: 38px;
+	margin-top: 20px;
+	height: 300px;
+	width: 712px;
+	background: red;
+}
+
+.card-one {
+	background: yellow;
+	height: 250px;
+	width: 166px;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 10px;
+	border: 2px solid #000;
+	border-radius: 20px; 
+	float: left;
+}
+
+.card-two {
+	background: green;
+	height: 250px;
+	width: 166px;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 10px;
+	border: 2px solid #000;
+	border-radius: 20px; 
+}
+
+.card-three {
+	background: pink;
+	height: 250px;
+	width: 166px;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 10px;
+	border: 2px solid #000;
+	border-radius: 20px; 
+}
+
+.card-four {
+	background: blue;
+	height: 250px;
+	width: 166px;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 10px;
+	border: 2px solid #000;
+	border-radius: 20px; 
+}
+
+/*#vader {
+	border:	1px solid #000;
+	border-radius: 80px;
+	margin: 0 auto;
+}*/
+
+#vader > img {
+	margin: 0 auto;
+}
