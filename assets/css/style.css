@@ -1,84 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
-	position: relative;
+    position: relative;
 }
 
 body {
-	background-image: url(../images/background.png);
+    background-image: url('../images/background.png');
+    padding: 50px;
 }
 
-/*.nav {
-	border-bottom: 1px solid #fff;
-	height: 40px;
-	background: transparent;
-	width: 100%;
-}*/
-
-.nav li {
-	display: inline;
-	float: right;
-	margin: 15px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
-.cards {
-	float: right;
-	margin-right: 38px;
-	margin-top: 20px;
-	height: 300px;
-	width: 712px;
-	background: red;
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.75), rgba(255, 0, 0, 0));
 }
 
-.card-one {
-	background: yellow;
-	height: 250px;
-	width: 166px;
-	display: inline-block;
-	margin-left: 4px;
-	margin-top: 10px;
-	border: 2px solid #000;
-	border-radius: 20px; 
-	float: left;
+.container {
+    width: 550px;
 }
 
-.card-two {
-	background: green;
-	height: 250px;
-	width: 166px;
-	display: inline-block;
-	margin-left: 4px;
-	margin-top: 10px;
-	border: 2px solid #000;
-	border-radius: 20px; 
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    margin: 10px;
+    text-align: center;
 }
 
-.card-three {
-	background: pink;
-	height: 250px;
-	width: 166px;
-	display: inline-block;
-	margin-left: 4px;
-	margin-top: 10px;
-	border: 2px solid #000;
-	border-radius: 20px; 
+.chooseCharBox {
+    width: 550px;
+    height: 165px;
+    margin: 10px 0 0 10px;
 }
 
-.card-four {
-	background: blue;
-	height: 250px;
-	width: 166px;
-	display: inline-block;
-	margin-left: 4px;
-	margin-top: 10px;
-	border: 2px solid #000;
-	border-radius: 20px; 
+.chooseCharBox img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-/*#vader {
-	border:	1px solid #000;
-	border-radius: 80px;
-	margin: 0 auto;
-}*/
+.chooseCharBox p {
+	padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
 
-#vader > img {
-	margin: 0 auto;
+#darthVader,
+#luke,
+#yoda,
+#darthMaul {
+    margin: 0;
+    width: 130px;
+    height: 100%;
+    border: 1px solid rgba(255, 0, 0, 0.75);
+    float: left;
+}
+
+.enemiesBox {
+    width: 450px;
+    height: 200px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    
+}
+
+.attackBtn {
+    margin: 10px;
+    background: #000;
+    border: 1px solid rgba(255, 0, 0, 0.75);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+	padding: 10px;
+}
+
+.fightBox p {
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.defenderBox {
+    width: 450px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.defenderBox p {
+    /*margin-left: 10px;*/
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
