@@ -1,69 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-	    <title>Star Wars!</title>
-	    <!-- reset   -->
-	    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	    <!-- css -->
-	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
+<head>
+    <title>Star Wars!</title>
+    <!-- reset   -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-	<body>
-	    <div class="container">
-	    	<h1>Please pick a Character!</h1>
-	        <div class="chooseCharBox">
-	        	
-	        	
-	            <div type="button" id="darthVader" characterName="Darth Vader" health="210" attack="15" counterAttack="25">
-	                <p>Darth Vader</p>
-	                <img class="starImage" src="assets/images/vader.png">
-	                <p>Hp:210</p>
-	            </div>
-	            <div type="button" id="luke" characterName='Luke Skywalker' health='150' attack='10' counterAttack="5">
-	                <p>Luke Skywalker</p>
-	                <img class="starImage" src="assets/images/luke.png">
-	                <p>Hp:150</p>
-	            </div>
-	            <div type="button" id="yoda" characterName='Yoda' health='230' attack='12' counterAttack=" 20">
-	                <p>Yoda</p>
-	                <img class="starImage" src="assets/images/yoda.png">
-	                <p>Hp:230</p>
-	            </div>
-	            <div type="button" id="darthMaul" characterName='Darth Maul' health='250' attack='13' counterAttack=" 25">
-	                <p>Darth Maul</p>
-	                <img class="starImage" src="assets/images/maul.png">
-	                <p>Hp:250</p>
-	            </div>
-
-	            
-	        </div>
-	        <hr>
-	        <div class="enemiesBox">
-	            <div class="enemies">
-	            	<!-- <p>Enemies Available to Attack</p> -->
-	            </div>
-	            
-	        </div>
-	        <div class="fightBox">
-	            <div class="fight"></div>
-	            <p>Fight!</p>
-	            <hr>
-	        </div>
-	        
-	        <div class="defenderBox">
-	        	<button class="attackBtn">Attack!</button>
-	            <div class="defender">
-	            </div>
-	            <p>Defender</p>
-	        </div>
-	        
-	    </div>
-	    </div>
-	    <!-- jquery -->
-	    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	    <!-- Javascript -->
-	    <script type="text/javascript" src="assets/javascript/game.js"></script>
-	</body>
+<body>
+    <div class="container">
+        <h1>Please pick a Character!</h1>
+        <div class="chooseCharBox">
+            <div type="button" id="darthVader" characterName="Darth Vader" health="210" attack="15" counterAttack="25">
+                <p>Darth Vader</p>
+                <img class="starImage" src="assets/images/vader.png">
+                <p>Hp:210</p>
+            </div>
+            <div type="button" id="luke" characterName='Luke Skywalker' health='150' attack='10' counterAttack="5">
+                <p>Luke Skywalker</p>
+                <img class="starImage" src="assets/images/luke.png">
+                <p>Hp:150</p>
+            </div>
+            <div type="button" id="yoda" characterName='Yoda' health='230' attack='12' counterAttack=" 20">
+                <p>Yoda</p>
+                <img class="starImage" src="assets/images/yoda.png">
+                <p>Hp:230</p>
+            </div>
+            <div type="button" id="darthMaul" characterName='Darth Maul' health='250' attack='13' counterAttack=" 25">
+                <p>Darth Maul</p>
+                <img class="starImage" src="assets/images/maul.png">
+                <p>Hp:250</p>
+            </div>
+        </div>
+        <hr>
+        <div class="enemiesBox">
+            <div class="enemies">
+                <!-- <p>Enemies Available to Attack</p> -->
+            </div>
+        </div>
+        <div class="fightBox">
+            <div class="fight"></div>
+            <p>Fight!</p>
+            <hr>
+        </div>
+        <div class="defenderBox">
+            <button class="attackBtn">Attack!</button>
+            <div class="defender">
+            </div>
+            <p>Defender</p>
+        </div>
+    </div>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
 
 </html>

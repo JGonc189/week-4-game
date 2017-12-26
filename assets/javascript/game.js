@@ -1,14 +1,11 @@
 $(document).ready(function() {
-    let character = true;
-    let countDefeated = 0;
-    //Counter
-    let obiCount = 0;
-    let lukeCount = 0;
-    let yodaCount = 0;
-    let maulCount = 0;
-
-    //Disable button
-    let disableBtn = true;
+    let character = true,
+        countDefeated = 0,
+        obiCount = 0,
+        lukeCount = 0,
+        yodaCount = 0,
+        maulCount = 0,
+        disableBtn = true;
 
     // When chosen character is clicked move the other characters to enimes section
 
@@ -83,8 +80,7 @@ $(document).ready(function() {
             $('#luke p').css({ 'margin-left': '30px' });
         }
     });
-    /*When character 3 is clicked move the
-      other characters to enimes section*/
+    // When character 3 is clicked move the other characters to enimes section
     $('#yoda').on('click', function() {
         if (character) {
             $(this).addClass('main');
@@ -120,8 +116,7 @@ $(document).ready(function() {
             $('#yoda p').css({ 'margin-left': '30px' });
         }
     });
-    /*When character 4 is clicked move the
-      other characters to enimes section*/
+    // When character 4 is clicked move the other characters to enimes section
     $('#darthMaul').on('click', function() {
         if (character) {
             $(this).addClass('main');
